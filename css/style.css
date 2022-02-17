@@ -16,15 +16,6 @@ body {
 	justify-content: space-between;
 }
 
-
-/* form {
-border-radius: 20px;
-background-color: black;
-color: white;
-position: relative;
-right: 900;
-} */
-
 .container{
 	width: 1080px;
 }
@@ -58,28 +49,6 @@ li a:hover {
 	border-radius: 50%;
 }
 
-.menu-button:hover {
-
-background-color: rgba(100, 100, 100, 1);
-cursor: pointer;
-}
-.menu-button {
-    width: 15px;
-    vertical-align: top;
-}
-
-.profile-pic {
-	margin-top: 6px;
-	border-radius: 50%;
-}
-
-.search-wrapper {
-	height: 60vh;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
 form {
 	position: relative;
 	margin-top: -25px;
@@ -100,20 +69,6 @@ input:hover {
 
 input:focus {
 	outline: none;
-}
-
-.search {
-	width: 20px;
-	position: absolute;
-	top: 15px;
-	left: 15px;
-}
-
-.mic {
-	width: 30px;
-	position: absolute;
-	top: 10px !important;
-	left: 540px;
 }
 
 .buttons { 
@@ -137,30 +92,3 @@ button:hover {
 	box-shadow: 0 0 2px 1px rgba(189, 189, 189, 0.5);
 	cursor: pointer;
 }
-
-footer {
-	width: 100%;
-	background-color: white;
-}
-
-.panel {
-	border-bottom: 1px solid #ddd;
-	height: 50px;
-	display: 50px;
-	justify-content: space-between;
-	padding: 15px;
-}
-
-.panel > * {
-	flex-basis: 33%;
-}
-
-p { 
-color: grey; 
-padding-left: 13px;
-
-}
-
-.right { 
-	justify-content: flex-end;
- }
